@@ -38,9 +38,7 @@ Exited – Target variable (1 = churned, 0 = retained)
 
 5) Tech Stack
 
-Languages:
-
-Python 
+Languages: Python 
 
 Libraries Used:
 
@@ -81,9 +79,13 @@ Used confusion matrix and ROC-AUC curve for performance evaluation
 
 7) Results
 Model	Accuracy	Precision	Recall	F1-Score
+
 Logistic Regression	83%	0.81	0.79	0.80
+
 Decision Tree	86%	0.84	0.83	0.83
+
 Random Forest	89%	0.87	0.88	0.88
+
 XGBoost	91%	0.90	0.91	0.91
 
 ✅ XGBoost performed the best with the highest accuracy and generalization performance.
